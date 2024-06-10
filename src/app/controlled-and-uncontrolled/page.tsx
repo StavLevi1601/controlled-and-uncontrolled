@@ -43,7 +43,12 @@ export default function ControlledAndUncontrolled() {
       setTelephoneError(validationTelephone.error.message);
     }
 
-    if (emailError === "" && telephoneError === "" && telephone && email) {
+    if (
+      emailError === "" &&
+      telephoneError === "" &&
+      telephone != null &&
+      email != null
+    ) {
       setShowModal(true);
     }
   };
