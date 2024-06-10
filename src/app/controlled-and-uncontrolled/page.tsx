@@ -6,7 +6,7 @@ import { EmailSchema, emailSchema } from "../validation/email";
 
 import { validateTelephone } from "../validation/telephone";
 
-export default function ControlledEmailInput() {
+export default function ControlledAndUncontrolled() {
   const [email, setEmail] = useState<EmailSchema>("");
 
   const [emailError, setEmailError] = useState("");
