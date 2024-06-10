@@ -1,6 +1,6 @@
 This repository contains an example project demonstrating the use of controlled and uncontrolled components in React. The project includes a form with two main inputs: an email and a telephone number.
 
-Features:
+## Features:
 
 Controlled Components: Utilizes controlled components for email input, including real-time validation using Zod schema.
 
