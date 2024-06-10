@@ -1,5 +1,22 @@
 This repository contains an example project demonstrating the use of controlled and uncontrolled components in React. The project includes a form with two main inputs: an email and a telephone number.
 
+Features:
+
+Controlled Components: Utilizes controlled components for email input, including real-time validation using Zod schema.
+
+Uncontrolled Components: Implements an uncontrolled component for telephone input, validated on form submission using a custom Zod validation schema.
+
+Modal Feedback: Displays a modal window upon successful validation of the inputs, providing user feedback.
+
+Implementation:
+The email address is managed with React's useState, and validated in real-time.
+
+The telephone number uses useRef for an uncontrolled component approach, with validation triggered on form submission.
+
+On successful validation of both fields, a modal confirms the submission.
+
+This example serves as a practical demonstration of how to manage form inputs with both controlled and uncontrolled approaches in React, integrating simple validation logic and user feedback.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
